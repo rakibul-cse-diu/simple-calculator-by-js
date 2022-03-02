@@ -1,0 +1,47 @@
+main{
+    height: 100vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(60deg, #00d2ff
+    0%, #928dab 100%);
+}
+
+.display{
+    background-color: #013332;
+    height: 90px;
+}
+
+.display-cal, .display-result{
+    color: white;
+    text-align: right;
+}
+
+.cal-container{
+    background-color: transparent;
+    padding: .5em;
+    width: 30%;
+}
+
+.cal-btn{
+    font-size: 1.5em;
+    height: 3em;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 1em;
+    /* border: 1px solid rgb(236, 232, 232); */
+    cursor: pointer;
+    transition: .5s;
+}
+
+.cal-btn:hover{
+    background-color: white;
+    border: none;
+}
+
+
+/* query */
+@media screen and (max-width: 668px) {
+    .cal-container{
+        padding: 0;
+        width: 75%;
+    }
+}
